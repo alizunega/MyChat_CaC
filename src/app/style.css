@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    /* Cambia el color del fondo según tus preferencias */
+    color: #fff;
+    /* Cambia el color del texto según tus preferencias */
+    padding: 10px;
+    text-align: left;
+    justify-content: space-around;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    /* Cambia el color del fondo según tus preferencias */
+    color: #fff;
+    /* Cambia el color del texto según tus preferencias */
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+
+
+}
+
+li {
+    display: inline;
+    justify-content: space-between;
+    margin-right: 12rem;
+}
+
+.content {
+
+    height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(208, 165, 243);
+}
+
+/* Estilo para los formularios */
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
