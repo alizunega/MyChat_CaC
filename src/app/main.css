@@ -3,11 +3,16 @@
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid red;
+  /*  border: 1px solid red; */
 }
 
 :root {
   width: 100%;
+  overflow: scroll;
+}
+
+body {
+  background: linear-gradient(220.55deg, #8fff85 0%, #39a0ff 100%);
 }
 
 /* ====== Inicio Header ====== */
@@ -99,7 +104,7 @@ h1 {
 a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  padding: 0.2em 0.5em;
+  padding: 0.2em 0.1em;
   border-radius: 5px;
 }
 
@@ -110,10 +115,10 @@ span {
 .buy_btn {
   font-size: 14px;
   line-height: 1.7;
-  width: 6%;
+  width: 7%;
   color: rgb(255, 255, 255);
   min-height: 50px;
-  padding: 10px;
+  padding: 0.1em;
   margin-right: 45px;
   vertical-align: middle;
   display: inline-flex;
@@ -131,3 +136,48 @@ span {
 }
 
 /* ====== Fin Header ======*/
+
+/* Inicio Contenido Principal */
+
+
+
+/* Fin Contenido Principal */
+
+/* ====== Inicio Footer ======*/
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+  background-color: black;
+  height: 125px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.footer_nav {
+  text-align: center;
+}
+
+.footer ul {
+  margin-bottom: 0.5em;
+}
+
+p {
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-whatsapp {
+  color: white;
+  padding-left: 0.25em;
+  font-size: 1.5em;
+}
+
+/* ====== Fin footer ======*/
