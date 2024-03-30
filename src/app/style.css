@@ -52,16 +52,24 @@ li {
     height: 100vh;
     flex: 1;
     display: flex;
-    flex-wrap: wrap;
-    /* justify-content: center; */
+    flex-wrap: nowrap;
+    justify-content: center;
     align-items: center;
-    background-color: rgb(208, 165, 243);
+    background-color: rgb(220, 188, 246);
 }
 
 /* Estilo para los formularios */
 
 .formulario {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-self: center;
+}
+
+.datos {
+    flex-wrap: wrap;
+}
+
+.info_ingreso {
+    flex-direction: row;
 }
